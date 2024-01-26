@@ -5,6 +5,7 @@ import sys
 from pprint import pprint
 from zfn_api import Client
 from pushplus import send_message
+from pushplus import pushdeer_send
 
 # 教务系统的URL、用户名和密码
 url = os.environ.get("URL")
